@@ -47,7 +47,7 @@ const SignIn: React.FC = () => {
 
     setLoading(true);
     try {
-      const response = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}/api/login`, {
+      const response = await fetch(`https://api.rekapitung.id/api/login`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
