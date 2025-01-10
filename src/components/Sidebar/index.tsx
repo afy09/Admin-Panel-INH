@@ -24,6 +24,11 @@ const menuGroups = [
         route: "/dashboard",
       },
       {
+        icon: <IconMenuPerusahaan />,
+        label: "Campign",
+        route: "/dashboard/campign",
+      },
+      {
         icon: <IconMenuSaldo />,
         label: "Proyek",
         route: "/dashboard/saldo",
