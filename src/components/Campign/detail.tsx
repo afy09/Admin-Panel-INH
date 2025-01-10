@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react";
 import { useParams } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowBack, Close, LoadingSpiner } from "@/app/dashboard/assets/icon";
+import { ArrowBack, Close, LoadingSpiner } from "./icons/icon";
 
 const DetailCampaign = () => {
   const { id } = useParams();

@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
-import { LoadingSpiner } from "../../app/dashboard/assets/icon";
+import { LoadingSpiner } from "./icons/icon";
 
 const Campign = () => {
   const [dataCampign, setDataCampign] = useState([]);
